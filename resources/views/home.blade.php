@@ -14,7 +14,7 @@
     </head>
     <body>
         @foreach ($movies as $movie)
-            <h2>{{ $movie->title }}</h2>
+            @include('partials/_movie')
         @endforeach
     </body>
 </html>
